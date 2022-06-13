@@ -1,14 +1,18 @@
 import random
 
-def quicksort (a, min, max):
+def quicksort (a, min, max, randomPivot = True):
     if min < max:
-        p = partition(x, min, max)
+        p = partition(x, min, max, randomPivot)
         quicksort(a, min, p - 1)
         quicksort(a, p + 1, max)
     return a
 
-def partition (a, min, max):
-    pivot = a[max]
+def partition (a, min, max, randomPivot):
+    if randomPivot:
+        pivot = a[random.randrange(min, max)]
+    else:
+        pivot = a[max]
+    
     i = min
     for j in range(min, max):
         if a[j] < pivot:
