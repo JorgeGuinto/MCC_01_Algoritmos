@@ -25,5 +25,18 @@ def partition (a, min, max, randomPivot):
     a[i] = temp
     return i
 
+def createRandomList(n):
+    a = [(i + 1) for i in range(n)]
+    shuffle(a)
+    return a 
+ 
+def shuffle(a):
+    for i in range(len(a)-1, 0, -1):
+        j = random.randrange(i + 1)
+        temp = a[i]
+        a[i] = a[j]
+        a[j] = temp
+
+print(createRandomList(5))
 x = [6,8,2,5,1,4,7,3]
 print(quicksort(x, 0, (len(x)-1)))
