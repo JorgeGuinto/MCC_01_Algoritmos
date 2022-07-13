@@ -36,3 +36,10 @@ b.	Luego ordénalo con Quicksort, mide el tiempo que tarda este proceso y guárd
 1. Codifica el algoritmo de búsqueda a profundidad. En el archivo “Grafo_no_conexo.txt”, está la descripción de un grafo simple no conexo. Usa el algoritmo de búsqueda en profundidad para encontrar los subgrafos conexos. Reporta los vértices de cada subgrafo conexo y tu código. Anexo imagen del grafo en cuestión:
 
 2. Codifica el algoritmo de Dijkstra. En el archivo “Grafo_ponderado.txt”, encontraras la descripción de un dígrafo. Usa el algoritmo que codificaste, para encontrar la ruta mínima del nodo 0 al nodo 14. Reporta tu resultado y tu código. Anexo imagen del grafo en cuestión.
+
+## * Actividad 06 (Extra)
+
+## * Actividad 07
+### Algoritmo de Huffman
+
+1. Codifica el algoritmo de Huffman que genere los códigos, valida con los datos anteriores.
