@@ -30,14 +30,11 @@ subgrafos = [1]
 subgrafos[0] = [v[0]]
 
 def busquedaProfundidad (subgrafo, e):
-    
     end = False
     i = 0
     while (end == False):
-        
         first = (int(e[i][0]) in subgrafo)
         second = (int(e[i][1]) in subgrafo)
-
         if first:
             if second:
                 i = i + 1
@@ -57,6 +54,25 @@ def busquedaProfundidad (subgrafo, e):
             end = True
 
     return subgrafo
+
+def grafosNoConexos(v = [], e = []):
+    subgrafos = [1]
+    subgrafos[0] = [v[0]]
+    busquedaDFS(subgrafos[0], e)
+    
+    for i in range(len(v)):
+        j = 0
+        agrupado = False
+        while (agrupado == False and j < len(subgrafos)):
+            if v[i] in subgrafos[j]:
+                agrupado = True
+            else:
+                j = j + 1
+        if agrupado == False:
+            subgrafos.append([v[i]])
+            busquedaDFS(subgrafos[len(subgrafos)-1], e)
+
+    return subgrafos
 
 def busquedaDFS(subgrafo, e):
     i = 1
@@ -103,25 +119,6 @@ def busquedaDFSAux(subgrafo, e, nodoActual):
         if i >= (len(e) - 1):
             end = True
     return nuevo
-
-def grafosNoConexos(v = [], e = []):
-    subgrafos = [1]
-    subgrafos[0] = [v[0]]
-    busquedaDFS(subgrafos[0], e)
-    
-    for i in range(len(v)):
-        j = 0
-        agrupado = False
-        while (agrupado == False and j < len(subgrafos)):
-            if v[i] in subgrafos[j]:
-                agrupado = True
-            else:
-                j = j + 1
-        if agrupado == False:
-            subgrafos.append([v[i]])
-            busquedaDFS(subgrafos[len(subgrafos)-1], e)
-
-    return subgrafos
 
 print(grafosNoConexos(v, e))
 

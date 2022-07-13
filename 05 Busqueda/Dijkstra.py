@@ -75,7 +75,7 @@ def dijkstra(nodoInicial, nodoFinal, v, e):
         nodoTemp = None
         costoTemp = None
         origenTemp = None
-    print(ruta)
+    #print(ruta)
     
     return(ruta[ruta2.index(nodoFinal)][1])
 
