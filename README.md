@@ -43,3 +43,8 @@ b.	Luego ordénalo con Quicksort, mide el tiempo que tarda este proceso y guárd
 ### Algoritmo de Huffman
 
 1. Codifica el algoritmo de Huffman que genere los códigos, valida con los datos anteriores.
+
+## * Actividad 08
+### Backtracking
+
+1. Usando la técnica de Backtracking, codifica un algoritmo para encontrar la solución de un Sodoku en su variante regular. Resuelve los siguientes Sodokus. Reporta tu código y la solución de los ejercicios.
