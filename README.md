@@ -48,3 +48,7 @@ b.	Luego ordénalo con Quicksort, mide el tiempo que tarda este proceso y guárd
 ### Backtracking
 
 1. Usando la técnica de Backtracking, codifica un algoritmo para encontrar la solución de un Sodoku en su variante regular. Resuelve los siguientes Sodokus. Reporta tu código y la solución de los ejercicios.
+2. Opcional (Backtracking Backpack) Codifica un algoritmo usando la técnica de Ramificación y Poda que resuelva el problema de la mochila. Resuelve el siguiente ejemplo donde la capacidad de la mochila es de 101. Reporta código y la solución al ejercicio.
+	    1	2	3	4	5	6	7	8	9
+Valor	79	32	47	18	26	85	33	40	45
+Peso	85	26	48	21	22	95	43	45	55

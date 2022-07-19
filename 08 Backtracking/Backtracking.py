@@ -53,7 +53,6 @@ def backtracking(sudoku):
         i = i + 1
     printS(sudoku)
 
-
 def legal (sudoku, i, j, start):
     factible = False
     for k in range(start,10,1):
@@ -65,8 +64,6 @@ def legal (sudoku, i, j, start):
                 if(factible):
                     return factible, k
     return factible, 0
-        
-
 
 def horizontal (sudoku, i, j, k):
     for l in range(0, 9, 1):
@@ -95,7 +92,6 @@ def square (sudoku, i, j, k):
         columna = 1
     else:
         columna = 2    
-
     for x in range((3*fila), (3*fila + 3), 1):
         for y in range((3*columna), (3*columna + 3), 1):
             if (x != i or y != j):
@@ -106,6 +102,5 @@ def square (sudoku, i, j, k):
 def printS (sudoku):
     for i in range(len(sudoku)):
         print(sudoku[i])
-
 
 backtracking(sudoku)
