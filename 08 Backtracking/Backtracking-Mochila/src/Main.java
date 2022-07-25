@@ -25,8 +25,8 @@ public class Main {
         elementos.add(e9);
         elementos.add(e10);
 
-        Mochila mochila = new Mochila(101);
-        Mochila mochilaOptima = new Mochila(101);
+        Mochila mochila = new Mochila(140);
+        Mochila mochilaOptima = new Mochila(140);
 
         llenarMochila(mochila, mochilaOptima, elementos, false);
         System.out.println(mochilaOptima.toString());
