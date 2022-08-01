@@ -56,3 +56,30 @@ b.	Luego ordénalo con Quicksort, mide el tiempo que tarda este proceso y guárd
 	    1	2	3	4	5	6	7	8	9
 Valor	79	32	47	18	26	85	33	40	45
 Peso	85	26	48	21	22	95	43	45	55
+
+
+## * Actividad 09
+### Dynamic Programming
+
+1. Usa programación dinámica para resolver el problema de encontrar el máximo conjunto independiente con mayor peso. Usa el archivo MWIS.txt para obtener los datos, cada dato es el peso de un vértice en un grafo camino. Contesta los siguiente: ¿Cuáles de los vértices 1, 2, 3, 4, 17, 117, 517, y 997 forman parte de la solución óptima?
+
+2. Usa programación dinámica para resolver el siguiente problema de la mochila. Suponga una capacidad máxima de 140 unidades. ¿Cuál es el valor óptimo de la mochila?, ¿Cuáles son los objetos que debemos tomar? 
+
+	1	2	3	4	5	6	7	8	9	10
+Valor	79	32	47	18	26	85	33	40	45	59
+Peso	85	26	48	21	22	95	43	45	55	52
+
+
+## * Actividad 10
+### Dynamic Programming
+
+1. Usa programación dinámica para resolver el problema de cortar la cuerda de la siguiente tabla. Encuentra para la cuerda de largo 11 cual sería el precio máximo para venderla, así como la descomposición óptima. Reporta tu código.
+largo	1	2	3	4	5	6	7	8	9	10	11
+precio	1	4	10	12	15	20	21	32	31	41	51
+
+2. Usa programación dinámica para encontrar la parentización óptima de la sucesión de matrices multiplicándose p=[5, 10, 3, 12, 5, 50, 6]. Entrega el mínimo de multiplicaciones escalares con el que se puede ejecutar dicha operación y explicita la parentización usada. Reporta tu código.
+
+3. Usando el algoritmo de Needleman-Wunch, alinea las siguientes secuencias. Utiliza las mismas penalizaciones que en clase. Reporta tu código y la penalización de la alineación óptima.
+
+X = CGATGCTAGCGTATCGTAGTCTATCGTAC
+Y = ACGATGCTAGCGTTTCGTATCATCGTA
