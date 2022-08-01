@@ -80,6 +80,5 @@ precio	1	4	10	12	15	20	21	32	31	41	51
 2. Usa programación dinámica para encontrar la parentización óptima de la sucesión de matrices multiplicándose p=[5, 10, 3, 12, 5, 50, 6]. Entrega el mínimo de multiplicaciones escalares con el que se puede ejecutar dicha operación y explicita la parentización usada. Reporta tu código.
 
 3. Usando el algoritmo de Needleman-Wunch, alinea las siguientes secuencias. Utiliza las mismas penalizaciones que en clase. Reporta tu código y la penalización de la alineación óptima.
-
 X = CGATGCTAGCGTATCGTAGTCTATCGTAC
 Y = ACGATGCTAGCGTTTCGTATCATCGTA

@@ -53,17 +53,17 @@ def printAlignment(p, x, y):
     print(printY)
 
 
-alfa = {'A': [10, -1, -3, -4],
+alf2 = {'A': [10, -1, -3, -4],
         'G': [-1, 7, -5, -3],
         'C': [-3, -5, 9, 0],
         'T': [-4, -3, 0, 8]}
-alfa2 = {'A': [1, -1, -1, -1],
+alfa = {'A': [1, -1, -1, -1],
         'G': [-1, 1, -1, -1],
         'C': [-1, -1, 1, -1],
         'T': [-1, -1, -1, 1]}
 alfa = pd.DataFrame(alfa)
 alfa = alfa.rename(index = {0:'A', 1:'G', 2:'C', 3:'T'})
-gap = -5
+gap = -2
 x = "CGATGCTAGCGTATCGTAGTCTATCGTAC"
 y = "ACGATGCTAGCGTTTCGTATCATCGTA"
 testX = "AGGGCT"
